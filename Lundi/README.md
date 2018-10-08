@@ -4,8 +4,8 @@
 ### Groupes :
 Noms | Pseudo Slack
 ------------ | -------------
-Pauline Labaisse | @Pauline Labaisse
-Margaux Cortier | @Margaux Crt
+Pauline Labaisse | @Pauline Labaisse :baby_chick:
+Margaux Cortier | @Margaux Crt :penguin:
 
 Noms | Pseudo Slack
 ------------ | -------------
@@ -14,5 +14,5 @@ Max de Ponfilly | @Max :octocat:
 
 Noms | Pseudo Slack
 ------------ | -------------
-Hélène Martin | @Helene Cbm
-Victor Gabella | @Chartie
+Hélène Martin | @Helene Cbm :panda_face:
+Victor Gabella | @Chartie :bear:
