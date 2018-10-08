@@ -9,8 +9,8 @@ Margaux Cortier | @Margaux Crt
 
 Noms | Pseudo Slack
 ------------ | -------------
-Irina Penkovskaia | @Ira P.
-Max de Ponfilly | @Max
+Irina Penkovskaia | @Ira P. :octocat:
+Max de Ponfilly | @Max :octocat:
 
 Noms | Pseudo Slack
 ------------ | -------------
