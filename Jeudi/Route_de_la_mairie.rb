@@ -58,8 +58,7 @@ def get_all_town_halls_emails(page)
   get_all_the_urls_of_val_doise_town_halls(county, page).each do |url|
     email_town_halls << get_the_email_of_a_town_hall_from_its_webpage(url)
   end
-
- email_town_halls
+  email_town_halls
 end
 
 def perform
