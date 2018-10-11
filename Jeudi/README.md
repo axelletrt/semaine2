@@ -1,7 +1,7 @@
 # Exercices du Jeudi 11 octobre 
 
 
-###Route de la mairie
+### Route de la mairie
 
 >Le CEO de get-email-corp a besoin encore de tes services. Il voudrait toutes les adresses email des mairies du Val d'Oise. Quelle coincidence, tu viens d'apprendre à le faire. Va sur cet annuaire des mairies et va récupérer les adresses emails des mairies du Val d'Oise.
 
@@ -11,7 +11,7 @@ Tu n'as plus qu'à recoller les méthodes ensemble et à toi la gloire
 BONUS : c'est quand même recommandé d'enregistrer les urls dans un hash propre du genre { "name" => "nomDeLaVille", "email" => "ville@machin.chose" } pour que le CEO de get-email-corp ne soit pas trop perdu
 
 
-###Trader de l'Obscur
+### Trader de l'Obscur
 
 >Lehman Brothers, impressionné par tes algorithmes de trading de la dernière fois, veut faire encore appel à toi. Leur Chief Digital Officer, très hype, a entendu parler au JT de TF1 d'un "truc révolutionnaire qui s'appelle je crois le bloque chienne" et voudrait du coup connaître le cours des cryptomonnaies.
 
@@ -19,7 +19,7 @@ Va sur CoinMarketCap et fait un programme qui va récupérer le cours de toutes 
 
 BONUS : fais en sorte que ton programme tourne en boucle, et prenne lex taux toutes les heures
 
-* Route des députés
+### Route des députés
 
 >Route des députés
 
