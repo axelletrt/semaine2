@@ -4,7 +4,7 @@ require 'pry'
 
 
 
-url_cap_market_coin = "https://coinmarketcap.com/all/views/all/"
+@url_cap_market_coin = "https://coinmarketcap.com/all/views/all/"
 
 def name_market_coin(page)
   @name_coin = []
@@ -25,8 +25,8 @@ def get_price(page)
 end
 
 def perform_mix
-  get_price(url_cap_market_coin)
-  name_market_coin(url_cap_market_coin)
+  get_price(@url_cap_market_coin)
+  name_market_coin(@url_cap_market_coin)
 
   mix = Hash.new
   mix = @name_coin.zip(@crypto_price)
