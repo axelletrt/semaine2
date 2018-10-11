@@ -62,9 +62,9 @@ def get_all_town_halls_emails(page)
 end
 
 def perform
-# get_the_email_of_a_town_hall_from_its_webpage(@vaureal)
-# get_all_the_town_halls_names(@val_doise)
-# get_all_the_urls_of_val_doise_town_halls(@val_doise, @home_page)
+#p get_the_email_of_a_town_hall_from_its_webpage(@vaureal)
+#p get_all_the_town_halls_names(@val_doise)
+#p get_all_the_urls_of_val_doise_town_halls(@val_doise, @home_page)
 p get_all_town_halls_emails(@home_page)
 end
 
