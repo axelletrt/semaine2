@@ -10,8 +10,8 @@ def name_market_coin(page)
   @name_coin = []
   page_market = Nokogiri::HTML(open(page))
   page_market.xpath('//a[@class = "currency-name-container link-secondary"]').each do |node|
-      @name_coin << node.text
-    end
+    @name_coin << node.text
+  end
   @name_coin
 end
 
@@ -32,7 +32,6 @@ def perform_mix
   mix = @name_coin.zip(@crypto_price)
 
   p mix
-
 end
 
 perform_mix
