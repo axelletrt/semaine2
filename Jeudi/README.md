@@ -1,5 +1,29 @@
 # Exercices du Jeudi 11 octobre 
 
+Nom | Pseudo Slack
+------------ | -------------
+Pauline Labaisse | @Pauline Labaisse :baby_chick:
+
+Nom | Pseudo Slack
+------------ | -------------
+Margaux Cortier | @Margaux Crt :penguin:
+
+Nom | Pseudo Slack
+------------ | -------------
+Irina Penkovskaia | @Ira P. :octocat:
+
+Nom | Pseudo Slack
+------------ | -------------
+Max de Ponfilly | @Max :tiger:
+
+Nom | Pseudo Slack
+------------ | -------------
+Hélène Martin | @Helene Cbm :panda_face:
+
+Nom | Pseudo Slack
+------------ | -------------
+Victor Gabella | @Chartie :bear:
+
 
 ### Route de la mairie
 
@@ -27,28 +51,7 @@ Maintenant, nous allons te faire travailler sans –trop– te mâcher le travai
 
 Cet exercice te demandera d'aller voir quelques annuaires, et de travailler sur celui qui te semble le mieux.
 
+![Output1](https://github.com/EliSparow/semaine2/blob/master/Jeudi/Desputes_Output2.png)
 
+![Output2](https://github.com/EliSparow/semaine2/blob/master/Jeudi/Desputes_Output1.png)
 
-Nom | Pseudo Slack
------------- | -------------
-Pauline Labaisse | @Pauline Labaisse :baby_chick:
-
-Nom | Pseudo Slack
------------- | -------------
-Margaux Cortier | @Margaux Crt :penguin:
-
-Nom | Pseudo Slack
------------- | -------------
-Irina Penkovskaia | @Ira P. :octocat:
-
-Nom | Pseudo Slack
------------- | -------------
-Max de Ponfilly | @Max :tiger:
-
-Nom | Pseudo Slack
------------- | -------------
-Hélène Martin | @Helene Cbm :panda_face:
-
-Nom | Pseudo Slack
------------- | -------------
-Victor Gabella | @Chartie :bear:
