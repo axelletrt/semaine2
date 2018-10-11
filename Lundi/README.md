@@ -16,3 +16,4 @@ Noms | Pseudo Slack
 ------------ | -------------
 Hélène Martin | @Helene Cbm :panda_face:
 Victor Gabella | @Chartie :bear:
+

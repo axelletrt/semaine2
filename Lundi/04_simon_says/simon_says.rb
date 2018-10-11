@@ -7,8 +7,8 @@ def shout(word)
 	word.upcase
 end
 
-def repeat(c,n=2)
-  ("#{c} "*n).strip
+def repeat(word,n=2)
+  ("#{word} "*n).strip
 end
 
 def start_of_word(word,n)
