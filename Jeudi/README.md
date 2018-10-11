@@ -28,20 +28,27 @@ Maintenant, nous allons te faire travailler sans –trop– te mâcher le travai
 Cet exercice te demandera d'aller voir quelques annuaires, et de travailler sur celui qui te semble le mieux.
 
 
-....
 
-### Groupes :
-Noms | Pseudo Slack
+Nom | Pseudo Slack
 ------------ | -------------
 Pauline Labaisse | @Pauline Labaisse :baby_chick:
+
+Nom | Pseudo Slack
+------------ | -------------
 Margaux Cortier | @Margaux Crt :penguin:
 
-Noms | Pseudo Slack
+Nom | Pseudo Slack
 ------------ | -------------
 Irina Penkovskaia | @Ira P. :octocat:
+
+Nom | Pseudo Slack
+------------ | -------------
 Max de Ponfilly | @Max :tiger:
 
-Noms | Pseudo Slack
+Nom | Pseudo Slack
 ------------ | -------------
 Hélène Martin | @Helene Cbm :panda_face:
+
+Nom | Pseudo Slack
+------------ | -------------
 Victor Gabella | @Chartie :bear:
