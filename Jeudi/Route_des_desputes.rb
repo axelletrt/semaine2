@@ -7,8 +7,8 @@ require 'pry'
 @accueil = "http://www2.assemblee-nationale.fr"
 
 
-
-def deputes(page) #récupère civilité, prénom, nom
+#récupère civilité, prénom, nom
+def deputes(page) 
   @deputes = []
   page_deputes = Nokogiri::HTML(open(page))
   page_deputes.xpath('//td//a').each do |node|
@@ -17,7 +17,8 @@ def deputes(page) #récupère civilité, prénom, nom
   @deputes
 end
 
-def get_all_the_urls_of_deputes(page, accueil) #récupère URL de fiche de chaque député
+#récupère URL de fiche de chaque député
+def get_all_the_urls_of_deputes(page, accueil) 
   @url_deputes = []
   page_deputes = Nokogiri::HTML(open(page))
   page_deputes.xpath('//td//a').each do |node|
@@ -28,8 +29,8 @@ def get_all_the_urls_of_deputes(page, accueil) #récupère URL de fiche de chaqu
   @url_deputes
 end
 
-
-def get_the_email(page) #récupère chaque email d'une fiche député
+#récupère chaque email d'une fiche député
+def get_the_email(page) 
   @mail_deputes = []
   fiche_deputes = Nokogiri::HTML(open(page))
   fiche_deputes.xpath('//li//a').each do |node|
@@ -40,7 +41,8 @@ def get_the_email(page) #récupère chaque email d'une fiche député
    @mail_deputes
 end
 
-def get_email_from_url # crée un array du mail de chaque député
+# crée un array du mail de chaque député
+def get_email_from_url 
 
   @deputes_url_mail = []
 
@@ -51,26 +53,7 @@ def get_email_from_url # crée un array du mail de chaque député
   @deputes_url_mail
 end
 
-#p deputes(@assemblee_nationale)
-
-#p @deputes.each {|i| i.split(" ").map(&:to_i)} #civilité prénom nom
-
-#p get_all_the_urls_of_deputes(#assemblee_nationale,accueil) #url fiche député
-
-#p  get_the_email("http://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA605036") #adresse mail fiche député
-
-#p get_email_from_url.flatten
-
-=begin
-deputes(@assemblee_nationale)
-get_email_from_url.flatten
-
-full_list = Hash.new
-full_list = @deputes.zip(@deputes_url_mail)
-
-p full_list
-=end
-
+# fait une séparation entre les noms et les prénoms de chaque député
 def separation
 
   def separer_prenom(liste)
@@ -96,12 +79,14 @@ def separation
 end
 
 
+#crée un Hash qui join les noms et les prénoms dans des arrays séparés
 def join_prenom_nom
 
   @liste_prenom_nom = @liste_prenom_deputes.zip(@liste_nom_deputes)
 
 end
 
+#crée un Hash qui join les noms&prénoms avec leur mail en face
 def join_prenom_nom_mail
 
   get_email_from_url
